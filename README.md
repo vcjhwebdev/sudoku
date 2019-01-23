@@ -1,11 +1,11 @@
 # APP NAME HERE
 
-APP DESCRIPTION HERE
+T REX RUN
 
 ## Authors
 
-- [STUDENT NAME HERE](http://link-to-website-here/)
-- [STUDENT NAME HERE](http://link-to-website-here/)
+- [SWATHI](http://link-to-website-here/)
+- [MICHELLE](http://link-to-website-here/)
 - [STUDENT NAME HERE](http://link-to-website-here/)
 
 ## Features
