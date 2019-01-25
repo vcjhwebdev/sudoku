@@ -9,6 +9,11 @@ body {
 	box-sizing: border-box;
 }
 
+h1{ font-size: 40px;
+  font-style: normal;
+  color: black
+}
+
 .display {
   height:20vh;
   width:100%;
@@ -21,26 +26,7 @@ body {
   font-family: monospace;
 }
 
-.keys {
-
-}
-
-.keys button {
-
-}
 
 .Button {
-
-}
-
-.button.function {
-
-}
-
-.button.operator {
-
-}
-
-.button.number {
 
 }
