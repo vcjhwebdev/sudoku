@@ -1,0 +1,46 @@
+body {
+
+  background-color: ;
+  margin: 0px;
+  height: 70vh;
+
+}
+* {
+	box-sizing: border-box;
+}
+
+.display {
+  height:20vh;
+  width:100%;
+  color: black;
+  background-color: #000000;
+  font-size: 8vw;
+  text-align: center;
+  border: 8px solid #000000;
+  padding: 0px;
+  font-family: monospace;
+}
+
+.keys {
+
+}
+
+.keys button {
+
+}
+
+.Button {
+
+}
+
+.button.function {
+
+}
+
+.button.operator {
+
+}
+
+.button.number {
+
+}
