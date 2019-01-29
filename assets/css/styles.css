@@ -1,0 +1,29 @@
+body {
+  background-color: #ACDFFF;
+  margin: 0px;
+	height: 80vh;
+  text-align: center;
+  background-size: cover;
+border-color: grey;
+}
+
+.display {
+	height: 30vh;
+	width: 100%;
+	color: black;
+	background-color: #409EFF;
+	font-size: 8vw;
+	text-align: right;
+	border: 8px solid #409EFF;
+	padding: 0px;
+	font-family:cursive;
+}
+.button {
+	height: 60px;
+	border: none;
+	cursor: pointer;
+	border-top: 4px solid transparent;
+	border-radius: 15px;
+  font-style: italic;
+  text-align: center;
+}
