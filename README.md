@@ -1,10 +1,10 @@
-# APP NAME HERE
+# Sudoku
 
-APP DESCRIPTION HERE
+- A game consisting of a 9x9 grid. players need to fill in the blanks and have different numbers in all the 9 squares horizontally, and vertically.
 
 ## Authors
 
-- [STUDENT NAME HERE](http://link-to-website-here/)
+- [Michelle Wang](http://link-to-website-here/)
 - [STUDENT NAME HERE](http://link-to-website-here/)
 - [STUDENT NAME HERE](http://link-to-website-here/)
 
