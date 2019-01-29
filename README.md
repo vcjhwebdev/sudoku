@@ -5,7 +5,7 @@
 ## Authors
 
 - [Michelle Wang](http://link-to-website-here/)
-- [STUDENT NAME HERE](http://link-to-website-here/)
+- [Swathi Giri](http://link-to-website-here/)
 - [STUDENT NAME HERE](http://link-to-website-here/)
 
 ## Features
