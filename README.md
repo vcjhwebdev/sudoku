@@ -1,6 +1,6 @@
 # Sudoku
 
-APP DESCRIPTION HERE
+- A game consisting of a 9x9 grid. players need to fill in the blanks and have different numbers in all the 9 squares horizontally, and vertically.
 
 ## Authors
 
