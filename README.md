@@ -1,6 +1,4 @@
-# APP NAME HERE
-
-T REX RUN
+# Sudoku
 
 ## Authors
 
