@@ -32,7 +32,10 @@ border-color: grey;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }
-
+table{
+  background-color:#FFCAD1;
+  border: 8px solid #FFCAD1;
+}
 .button.function {
 
 }
