@@ -1,5 +1,5 @@
 body {
-  background-color: #ACDFFF;
+  background-color: #4969C8;
   margin: 0px;
 	height: 80vh;
   text-align: center;
@@ -11,7 +11,7 @@ border-color: grey;
 	height: 30vh;
 	width: 100%;
 	color: black;
-	background-color: #409EFF;
+	background-color: #1AFFB8;
 	font-size: 8vw;
 	text-align: right;
 	border: 8px solid #409EFF;
@@ -33,9 +33,23 @@ border-color: grey;
   -webkit-border-radius: 10px;
 }
 table{
-  background-color:#FFCAD1;
+  background-color:#1AFFB8;
   border: 8px solid #FFCAD1;
 }
 .button.function {
 
+}
+
+td {
+  padding: 0;
+  border: 0;
+}
+
+td:nth-child(3),
+td:nth-child(6) {
+  border-right: 1px solid black;
+}
+
+tr:nth-child(3) {
+  border-bottom: 1px solid black;
 }
