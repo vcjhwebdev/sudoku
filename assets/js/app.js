@@ -1,13 +1,5 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title> Sudoku JavaScript</title>
-</head>
-
-<body>
-	<script type="text/javascript">
-
-	</script>
-</body>
-</html>
+var startGame = document.querySelector('.startGame');
+var overlay = document.querySelector('#overlay');
+startGame.addEventListener('click', function (e) {
+overlay.style.display = "none";
+});

@@ -6,11 +6,17 @@
     <title>Sudoku</title>
   </head>
   <body>
+<div id="main-container">
+<div id="overlay">
+  <h1> Sudoku </h1>
+  <input class="start-Game" type="button" value="Start Game">
+  <!---<input type="button" class="levels" value="Sudoku" onClick="prompt('Do you want to play levels easy, medium, or hard?')">--->
+</div>
 
     <table border="1">
 
       <tr>
-      <tfoot>
+
         <td></td>
         <td></td>
         <td></td>
@@ -20,7 +26,7 @@
         <td></td>
         <td>7</td>
         <td>9</td>
-      </tfoot>
+  
       </tr>
       <tr>
         <td>5</td>
@@ -114,12 +120,7 @@
     </table>
 
 
-    <input type="button" value="Start Game" onClick="confirm('Do you want to play Sudoku?')">
-    <input type="button" value="Sudoku" onClick="prompt('Do you want to play levels easy, medium, or hard?')">
-
-
-
-
+</div>
     <!-- JavaScript File (loaded after the html has rendered) -->
     <script src="assets/js/app.js"></script>
   </body>
