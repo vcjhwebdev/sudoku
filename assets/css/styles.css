@@ -16,7 +16,7 @@ border-color: grey;
 	text-align: right;
 	border: 8px solid #409EFF;
 	padding: 0px;
-	font-family:cursive;
+	font-family: cursive;
 }
 
 .button {
@@ -42,14 +42,18 @@ table{
 
 td {
   padding: 0;
-  border: 0;
+  margin: 0;
+  border: 1px solid black;
+  width: 32px;
+  height: 32px;
 }
 
 td:nth-child(3),
 td:nth-child(6) {
-  border-right: 1px solid black;
+  border-right: 4px solid black;
 }
 
-tr:nth-child(3) {
-  border-bottom: 1px solid black;
+tr:nth-child(3) td,
+tr:nth-child(6) td {
+  border-bottom: 4px solid black;
 }
