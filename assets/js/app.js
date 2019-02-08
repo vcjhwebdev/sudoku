@@ -1,5 +1,8 @@
-var startGame = document.querySelector('.startGame');
+var startGame = document.querySelector('.start-game');
 var overlay = document.querySelector('#overlay');
-startGame.addEventListener('click', function (e) {
+var game = document.querySelector('#game');
+
+startGame.addEventListener('click', function(e) {
 overlay.style.display = "none";
+game.style.display = "none";
 });
