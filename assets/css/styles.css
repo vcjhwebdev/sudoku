@@ -4,7 +4,9 @@ body {
 	height: 80vh;
   text-align: center;
   background-size: cover;
-border-color: grey;
+  border-color: grey;
+font-family: 'Quicksand', sans-serif;
+  font-size: 4vw
 }
 
 .display {
@@ -35,6 +37,9 @@ border-color: grey;
 table{
   background-color:#1AFFB8;
   border: 8px solid #FFCAD1;
+  width:100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .button.function {
 
@@ -50,6 +55,7 @@ td:nth-child(6) {
   border-right: 1px solid black;
 }
 
-tr:nth-child(3) {
+tr:nth-child(3) td,
+tr:nth-child(6) td {
   border-bottom: 1px solid black;
 }
