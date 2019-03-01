@@ -40,6 +40,11 @@ table{
 
 }
 
+/*
+content editable
+input type text
+ */
+
 td {
   padding: 0;
   margin: 0;
@@ -56,4 +61,24 @@ td:nth-child(6) {
 tr:nth-child(3) td,
 tr:nth-child(6) td {
   border-bottom: 4px solid black;
+}
+
+
+/* =================================
+Device width:
+    <-- 320px
+==================================== */
+@media (max-width: 320px) {
+}
+/* =================================
+Device width:
+    768px -->   <-- 1024px
+==================================== */
+@media (min-width: 768px) {
+}
+/* =================================
+Device width:
+    1024px -->
+==================================== */
+@media (min-width: 1024px) {
 }
