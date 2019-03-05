@@ -6,10 +6,14 @@ body {
   background-size: cover;
   border-color: #B2F8FF;
 font-family: 'Quicksand', sans-serif;
-  font-size: 4vw
 }
 
-.display {
+h2 {
+  font-size: 5vw;
+  margin: 4px auto;
+}
+
+/* .display {
 	height: 30vh;
 	width: 100%;
 	color: black;
@@ -19,7 +23,7 @@ font-family: 'Quicksand', sans-serif;
 	border: 8px solid #409EFF;
 	padding: 0px;
 	font-family: cursive;
-}
+} */
 
 .button {
 	height: 60px;
@@ -40,6 +44,7 @@ table{
   width:100%;
   max-width: 600px;
   margin: 0 auto;
+  font-size: 4vw;
 }
 .button.function {
 
@@ -80,6 +85,9 @@ Device width:
     768px -->   <-- 1024px
 ==================================== */
 @media (min-width: 768px) {
+  table {
+    font-size: 3vw;
+  }
 }
 /* =================================
 Device width:
