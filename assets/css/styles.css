@@ -65,11 +65,7 @@ td:nth-child(6) {
 
 tr:nth-child(3) td,
 tr:nth-child(6) td {
-<<<<<<< HEAD
-  border-bottom: 1px solid black;
-=======
   border-bottom: 4px solid black;
->>>>>>> 30b8bd1f21d493de6b8b45cc92c90dce94bc6827
 }
 
 
