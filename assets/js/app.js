@@ -7,7 +7,7 @@ var game = document.querySelector('#game');
 // game.style.display = "none";
 // });
 
-var board = [
+var seed = [
   [7, 3, 5, 6, 1, 4, 8, 9, 2],
   [8, 4, 2, 9, 7, 3, 5, 6, 1],
   [9, 6, 1, 2, 8, 5, 3, 7, 4],
@@ -19,50 +19,63 @@ var board = [
   [3, 2, 8, 5, 6, 1, 7, 4, 9]
 ];
 
-function shuffleArray(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
+var gameBoard = shuffleBoard(seed);
 
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
+function shuffleBoard(seed) {
 
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
+  // parameter: array
+  // returns shuffled array
+  function shuffleArray(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
 
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+    return array;
   }
+
+  // var firstThreeRows = [seed[0], seed[1], seed[2]];
+  //
+  // firstThreeRows = shuffleArray(firstThreeRows);
+  //
+  // seed[0] = firstThreeRows[0];
+  //
+  //
+
+  var firstThreeRows = shuffleArray([seed[0], seed[1], seed[2]]);
+  var secondThreeRows = shuffleArray([seed[3], seed[4], seed[5]]);
+  var lastThreeRows = shuffleArray([seed[6], seed[7], seed[8]]);
+
+  var array = [
+    firstThreeRows[0],
+    firstThreeRows[1],
+    firstThreeRows[2],
+    secondThreeRows[0],
+    secondThreeRows[1],
+    secondThreeRows[2],
+    lastThreeRows[0],
+    lastThreeRows[1],
+    lastThreeRows[2]
+  ];
+
   return array;
 }
 
-function shuffleBoard(board) {
-  var firstThreeRows = [board[0], board[1], board[2]];
+function printGameBoard(array) {
+  var table = document.querySelector('table');
 
-  firstThreeRows = shuffleArray(firstThreeRows);
-
-  board[0] = firstThreeRows[0];
+  // for
+    // for
+      // .textContent
 }
 
-console.log(board);
-shuffleBoard(board);
-
-  var secondThreeRows = [board[3], board[4], board[5]];
-
-  secondThreeRows = shuffleArray(secondThreeRows);
-
-  board[0] = secondThreeRows[0];
-
-console.log(board);
-shuffleBoard(board);
-
-
-  var thirdThreeRows = [board[6], board[7], board[8]];
-
-  thirdThreeRows = shuffleArray(thirdThreeRows);
-
-  board[0]= thirdThreeRows
-
-console.log(board);
-shuffleBoard(board);
+printGameBoard(gameBoard);
