@@ -72,10 +72,22 @@ function shuffleBoard(seed) {
 
 function printGameBoard(array) {
   var table = document.querySelector('table');
+  var rows = table.querySelectorAll('tr');
 
-  // for
-    // for
-      // .textContent
+  for(var i = 0; i < rows.length; i++) {
+    var row = rows[i];
+    var cells = row.querySelectorAll('td');
+    for(var t = 0; t < cells.length; t++){
+      var cell = cells[t];
+      // generate random number
+      var r = Math.random();
+      if(r > .5) {
+        cell.textContent = array[i][t];
+      } else {
+        cell.textContent = "";
+      }
+    }
+  }
 }
 
 printGameBoard(gameBoard);
