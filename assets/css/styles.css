@@ -62,6 +62,27 @@ tr:nth-child(6) td {
 }
 
 
+td:hover {
+  background-color: #C7DDFF;
+}
+.glow {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px #44B6DF, 0 0 40px #44B6DF, 0 0 50px #44B6DF, 0 0 60px #44B6DF, 0 0 70px #44B6DF;
+  }
+
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px #44B6DF, 0 0 50px #44B6DF, 0 0 60px #44B6DF, 0 0 70px #44B6DF, 0 0 80px #44B6DF;
+  }
+}
 /* =================================
 Device width:
     <-- 320px
