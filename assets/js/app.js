@@ -90,4 +90,8 @@ function printGameBoard(array) {
   }
 }
 
+function compare() {
+
+}
+
 printGameBoard(gameBoard);

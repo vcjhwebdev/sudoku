@@ -4,16 +4,29 @@
 
 ## Authors
 
-- [Michelle Wang](http://link-to-website-here/)
-- [Swathi Giri](http://link-to-website-here/)
-- [STUDENT NAME HERE](http://link-to-website-here/)
+- [Michelle Wang](https://mwanggg.github.io)
+- [Swathi Giri](https://cupcakelover123239.github.io)
+
 
 ## Features
 
-- APP FEATURES HERE
+- Sudoku puzzle that resets everytime you reload the page
+- Input numbers into the boxes of the sudoku
+- blanks
+
 
 ### Changelog
 
 **Version 0.1**
 
 - Created tables and buttons
+
+
+**Version 0.2**
+
+- Shuffle array
+
+
+**Version 0.3**
+
+- blanks
