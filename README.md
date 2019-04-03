@@ -13,6 +13,7 @@
 - Sudoku puzzle that resets everytime you reload the page
 - Input numbers into the boxes of the sudoku
 - blanks
+- levels
 
 
 ### Changelog
