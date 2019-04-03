@@ -34,3 +34,7 @@
 **Version 0.4**
 
 - button for levels
+
+**Version 0.5**
+
+- made levels work and numbers not editable

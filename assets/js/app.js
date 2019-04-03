@@ -87,6 +87,7 @@ function printGameBoard(array, d) {
         cell.setAttribute("contenteditable", "false");
       } else {
         cell.textContent = "";
+        cell.removeAttribute("contenteditable");
       }
     }
   }
