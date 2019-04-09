@@ -1,32 +1,116 @@
 body {
-
-  background-color: ;
+  background-color: #B2F8FF;
   margin: 0px;
-  height: 70vh;
-
-}
-* {
-	box-sizing: border-box;
-}
-
-h1{ font-size: 40px;
-  font-style: normal;
-  color: black
-}
-
-.display {
-  height:20vh;
-  width:100%;
-  color: black;
-  background-color: #000000;
-  font-size: 8vw;
+	height: 80vh;
   text-align: center;
-  border: 8px solid #000000;
-  padding: 0px;
-  font-family: monospace;
+  background-size: cover;
+  border-color: #B2F8FF;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  font-size: 5vw;
+  margin: 4px auto;
+}
+
+.button {
+	height: 100px;
+	border: none;
+	cursor: pointer;
+	border-top: 4px solid transparent;
+	border-radius: 15px;
+  font-style:'Quicksand', sans-serif;;
+  text-align: Auto;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+table{
+  background-color:#FFFFFF;
+  border: 8px solid #60B4FF;
+  width:100%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 4vw;
+}
+.button.function {
+
+}
+
+.levels{
+  background-color:white;
+  border: 1px solid black;
+  font-family: 'Lucida Console', Monaco, monospace;
+  font-size: 16px;
+  width: 10%;
+  height: auto;
+  margin-top: 12px
+}
+
+/*
+content editable
+input type text
+ */
+
+td {
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+  width: 32px;
+  height: 32px;
+}
+
+td:nth-child(3),
+td:nth-child(6) {
+  border-right: 4px solid black;
+}
+
+tr:nth-child(3) td,
+tr:nth-child(6) td {
+  border-bottom: 4px solid black;
 }
 
 
-.Button {
+td:hover {
+  background-color: #C7DDFF;
+}
+.glow {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
 
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px #44B6DF, 0 0 40px #44B6DF, 0 0 50px #44B6DF, 0 0 60px #44B6DF, 0 0 70px #44B6DF;
+  }
+
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px #44B6DF, 0 0 50px #44B6DF, 0 0 60px #44B6DF, 0 0 70px #44B6DF, 0 0 80px #44B6DF;
+  }
+}
+/* =================================
+Device width:
+    <-- 320px
+==================================== */
+@media (max-width: 320px) {
+}
+/* =================================
+Device width:
+    768px -->   <-- 1024px
+==================================== */
+@media (min-width: 768px) {
+  table {
+    font-size: 3vw;
+  }
+}
+/* =================================
+Device width:
+    1024px -->
+==================================== */
+@media (min-width: 1024px) {
 }

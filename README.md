@@ -15,28 +15,29 @@
 - blanks
 - levels
 
-
 ### Changelog
 
-**Version 0.1**
+**Version 1.0**
 
-- Created tables and buttons
-
-
-**Version 0.2**
-
-- Shuffle array
-
-
-**Version 0.3**
-
-- blanks
-
-**Version 0.4**
-
-- button for levels
+- Release
+- 3 difficulties
 
 **Version 0.5**
 
 - made levels work and numbers not editable
 
+**Version 0.4**
+
+- button for levels
+
+**Version 0.3**
+
+- blanks
+
+**Version 0.2**
+
+- Shuffle array
+
+**Version 0.1**
+
+- Created tables and buttons
