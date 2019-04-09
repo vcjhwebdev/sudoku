@@ -1,8 +1,6 @@
 var startGame = document.querySelector('.start-game');
 var overlay = document.querySelector('#overlay');
 var game = document.querySelector('#game');
-var form = document.querySelector('form');
-
 
 // startGame.addEventListener('click', function(e) {
 // overlay.style.display = "none";
@@ -74,29 +72,19 @@ function shuffleBoard(seed) {
 
 function printGameBoard(array) {
   var table = document.querySelector('table');
-  var rows = table.querySelectorAll//('tr');
+  var rows = table.querySelectorAll('tr');
 
   for(var i = 0; i < rows.length; i++) {
     var row = rows[i];
     var cells = row.querySelectorAll('td');
     for(var t = 0; t < cells.length; t++){
       var cell = cells[t];
-      // Generate random number
+      // generate random number
       var r = Math.random();
-      if (r > .5) {
+      if(r > .5) {
         cell.textContent = array[i][t];
       } else {
         cell.textContent = "";
-        if(r > .7 ) {
-          cell.textContent = array[i][t];
-        } else {
-          cell.textContent = "";
-          if(r > .6 ) {
-            cell.textContent = array[i][t];
-          } else {
-            cell.textContent = "";
-
-        }
       }
     }
   }
@@ -107,6 +95,3 @@ function compare() {
 }
 
 printGameBoard(gameBoard);
-form.addEventListener('click', function(e) {
-  console.log(e.target);
-});
