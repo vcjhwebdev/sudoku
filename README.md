@@ -13,7 +13,7 @@
 - Sudoku puzzle that resets everytime you reload the page
 - Input numbers into the boxes of the sudoku
 - blanks
-
+- levels
 
 ### Changelog
 
@@ -21,6 +21,10 @@
 
 - Release
 - 3 difficulties
+
+**Version 0.5**
+
+- made levels work and numbers not editable
 
 **Version 0.4**
 

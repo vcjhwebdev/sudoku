@@ -5,7 +5,7 @@ body {
   text-align: center;
   background-size: cover;
   border-color: #B2F8FF;
-font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h2 {
@@ -113,10 +113,4 @@ Device width:
     1024px -->
 ==================================== */
 @media (min-width: 1024px) {
-}
-
-body {
-  -webkit-user-select: none;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
 }
