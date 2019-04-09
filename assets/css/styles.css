@@ -46,7 +46,6 @@ table{
   width: 10%;
   height: auto;
   margin-top: 12px
-  padding: 4px;
 }
 
 /*
@@ -59,7 +58,7 @@ td {
   margin: 0;
   border: 1px solid black;
   width: 32px;
-  height: 58px;
+  height: 32px;
 }
 
 td:nth-child(3),
