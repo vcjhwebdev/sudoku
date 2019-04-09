@@ -17,20 +17,23 @@
 
 ### Changelog
 
-**Version 0.1**
+**Version 1.0**
 
-- Created tables and buttons
+- Release
+- 3 difficulties
 
+**Version 0.4**
 
-**Version 0.2**
-
-- Shuffle array
-
+- button for levels
 
 **Version 0.3**
 
 - blanks
 
-**Version 0.4**
+**Version 0.2**
 
-- button for levels
+- Shuffle array
+
+**Version 0.1**
+
+- Created tables and buttons
