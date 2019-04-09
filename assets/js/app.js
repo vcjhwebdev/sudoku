@@ -1,8 +1,12 @@
 var startGame = document.querySelector('.start-game');
 var overlay = document.querySelector('#overlay');
 var game = document.querySelector('#game');
+<<<<<<< HEAD
 var form = document.querySelector('form');
 
+=======
+var difficultyButtons = document.querySelectorAll('button');
+>>>>>>> 95089923355f4dada43d679a228fcbf2a825afd4
 
 // startGame.addEventListener('click', function(e) {
 // overlay.style.display = "none";
@@ -72,7 +76,7 @@ function shuffleBoard(seed) {
   return array;
 }
 
-function printGameBoard(array) {
+function printGameBoard(array, d) {
   var table = document.querySelector('table');
   var rows = table.querySelectorAll//('tr');
 
@@ -83,10 +87,16 @@ function printGameBoard(array) {
       var cell = cells[t];
       // Generate random number
       var r = Math.random();
+<<<<<<< HEAD
       if (r > .5) {
+=======
+      if(r > d) {
+>>>>>>> 95089923355f4dada43d679a228fcbf2a825afd4
         cell.textContent = array[i][t];
+        cell.setAttribute("contenteditable", "false");
       } else {
         cell.textContent = "";
+<<<<<<< HEAD
         if(r > .7 ) {
           cell.textContent = array[i][t];
         } else {
@@ -97,6 +107,9 @@ function printGameBoard(array) {
             cell.textContent = "";
 
         }
+=======
+        cell.removeAttribute("contenteditable");
+>>>>>>> 95089923355f4dada43d679a228fcbf2a825afd4
       }
     }
   }
@@ -106,7 +119,28 @@ function compare() {
 
 }
 
+<<<<<<< HEAD
 printGameBoard(gameBoard);
 form.addEventListener('click', function(e) {
   console.log(e.target);
 });
+=======
+for(var index = 0; index < difficultyButtons.length; index++) {
+  var button = difficultyButtons[index];
+  button.addEventListener("click", function(e) {
+    var difficulty = e.target.textContent;
+    gameBoard = shuffleBoard(seed);
+    var d;
+    if(difficulty == "Easy") {
+      d = .2;
+    } else if (difficulty == "Medium") {
+      d = .5;
+    } else{
+      d = .7
+    }
+    printGameBoard(gameBoard, d);
+  });
+}
+
+printGameBoard(gameBoard, .2);
+>>>>>>> 95089923355f4dada43d679a228fcbf2a825afd4
