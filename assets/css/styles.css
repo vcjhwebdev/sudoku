@@ -114,3 +114,9 @@ Device width:
 ==================================== */
 @media (min-width: 1024px) {
 }
+
+body {
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
